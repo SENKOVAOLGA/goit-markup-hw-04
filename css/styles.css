@@ -180,22 +180,16 @@ padding: 120px 0 ;
    }
    .des-icon{
  display: flex;
- align-items: center;
- justify-content: center;
- /* width: 264px;
-height: 112px; */
-/* border-radius: 4px;
-margin-bottom: 8px; */
+  height: 112px;
+  align-items: center;
+  justify-content: center;
+  margin: 24px, 100px;
+background-color:var(--cloud);
+border-radius: 4px;
+  margin-bottom: 8px;
 }
 .description-icon{
- display: flex;
- align-items: center;
- justify-content: center;
- width: 264px;
-height: 112px;
-background-color: #f4f4fd;
-border-radius: 4px;
-margin-bottom: 8px; 
+ margin: 24px, 100px;
 }
 
 
