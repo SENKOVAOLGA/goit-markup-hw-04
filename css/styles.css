@@ -307,36 +307,51 @@ margin-bottom: 72px;
 }
 /* ==========5 секція Customers========== */
 .customers-main{
-padding: 120px 0 120px;
-outline: 2px solid red; 
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid red; 
 }
 .title-customers{
-font-size: 36px;
-line-height: 1.1;
-color:var(--navy-blue);
-margin-bottom: 72px; 
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    /* text-transform: capitalize; */
+    color: var(--navy-blue);
+    margin-bottom: 72px;
 }
 .customers{
 display: flex; 
 gap: 24px;
-width: calc((100% - 120px) / 6);
+/* width: calc((100% - 120px) / 6); */
 height: 88px;
-order: 0;
-flex-grow: 0; 
+justify-content: center;
+    /* align-items: center; */
 
 
 }
+.partner-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    color: var(--light-slate);
+    margin: auto;
+    height: 100%;
+    padding: 16px 32px;
+    border: 1px solid var(--light-slate);
+    border-radius: 4px;
+    gap: 24px;
+}
+
 .customers-item{
 
 }
-.customers-icon{
-border: 1px solid #8e8f99;
-border-radius:4px;
-display: flex;
- align-items: center;
- justify-content: center;
- color: #8e8f99;
-}
+
 .customers-icon:hover,
 .customers-icon:focus{
     border-color: #404bbf;
