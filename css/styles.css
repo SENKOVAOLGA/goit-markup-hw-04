@@ -310,12 +310,16 @@ margin-bottom: 72px;
  
 }
 .socials-icon {
-  fill: currentColor;
+   fill: var(--cloud);
 }
+
 /* ==========5 секція Customers========== */
 .customers-section{
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.customers-icon{
+      fill: currentColor;
 }
 /* .customers-main{
     width: 1158px;
