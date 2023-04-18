@@ -373,6 +373,22 @@ border: 1px solid var(--cornflower);
     background-color:var(--ocean);
     border: 1px solid transparent;
 }
+.socials-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+  
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+.socials-link-footer:hover,
+.socials-link-footer:focus {
+  background-color: var(--green);
+ 
+}
 /* Скрываем название */
 .visually-hidden {
   position: absolute;
