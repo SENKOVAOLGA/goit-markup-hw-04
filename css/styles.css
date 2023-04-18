@@ -306,14 +306,18 @@ margin-bottom: 72px;
   fill: currentColor;
 }
 /* ==========5 секція Customers========== */
-.customers-main{
+.customers-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+/* .customers-main{
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid red; 
-}
+    outline: 2px solid red;  
+} */
 .title-customers{
     font-weight: 700;
     font-size: 36px;
